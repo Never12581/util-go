@@ -27,105 +27,6 @@
 			<header id="header" class="header--has-logo header--has-topbar header--has-search header--has-social-links header--sticky">
 				<div class="header__inner">
 
-					<!-- HEADER SEARCH : begin -->
-					<div id="header-search" class="header-search" role="group" aria-expanded="false">
-						<div class="header-search__inner">
-
-							<!-- SEARCH FORM : begin -->
-							<form class="header-search__form" action="search-results.html" method="get" role="search">
-
-								<!-- INPUT WRAPPER : begin -->
-								<div class="header-search__input-wrapper">
-
-									<label for="header-search-input" class="header-search__input-label screen-reader-text">Search</label>
-
-									<input id="header-search-input" type="text" name="s" autocomplete="off" class="header-search__input" value="" placeholder="Search this site" aria-label="Search field">
-
-									<button class="header-search__submit" type="submit" title="Submit search">
-										<span class="header-search__submit-icon" aria-hidden="true"></span>
-									</button>
-
-								</div>
-								<!-- INPUT WRAPPER : end -->
-
-								<!-- SEARCH PANEL : begin -->
-								<div class="header-search__panel">
-
-									<!-- SEARCH FILTER : begin -->
-									<div class="header-search__filter">
-
-										<label for="header-search-filter-type-any" class="header-search__filter-label header-search__filter-label--active">
-											<input type="checkbox" class="header-search__filter-checkbox" id="header-search-filter-type-any" name="search-filter[]" value="any" checked="checked">
-											Search everything
-										</label>
-
-										<label for="header-search-filter-type-post" class="header-search__filter-label">
-											<input type="checkbox" class="header-search__filter-checkbox" id="header-search-filter-type-post" name="search-filter[]" value="post">
-											News
-										</label>
-
-										<label for="header-search-filter-type-page" class="header-search__filter-label">
-											<input type="checkbox" class="header-search__filter-checkbox" id="header-search-filter-type-page" name="search-filter[]" value="page">
-											Pages
-										</label>
-
-										<label for="header-search-filter-type-lsvr_listing" class="header-search__filter-label">
-											<input type="checkbox" class="header-search__filter-checkbox" id="header-search-filter-type-lsvr_listing" name="search-filter[]" value="lsvr_listing">
-											Locations
-										</label>
-
-										<label for="header-search-filter-type-lsvr_document" class="header-search__filter-label">
-											<input type="checkbox" class="header-search__filter-checkbox" id="header-search-filter-type-lsvr_document" name="search-filter[]" value="lsvr_document">
-											Documents
-										</label>
-
-										<label for="header-search-filter-type-lsvr_event" class="header-search__filter-label">
-											<input type="checkbox" class="header-search__filter-checkbox" id="header-search-filter-type-lsvr_event" name="search-filter[]" value="lsvr_event">
-											Events
-										</label>
-
-										<label for="header-search-filter-type-lsvr_faq" class="header-search__filter-label">
-											<input type="checkbox" class="header-search__filter-checkbox" id="header-search-filter-type-lsvr_faq" name="search-filter[]" value="lsvr_faq">
-											FAQ
-										</label>
-
-										<label for="header-search-filter-type-lsvr_person" class="header-search__filter-label">
-											<input type="checkbox" class="header-search__filter-checkbox" id="header-search-filter-type-lsvr_person" name="search-filter[]" value="lsvr_person">
-											City Council
-										</label>
-
-										<label for="header-search-filter-type-lsvr_project" class="header-search__filter-label">
-											<input type="checkbox" class="header-search__filter-checkbox" id="header-search-filter-type-lsvr_project" name="search-filter[]" value="lsvr_project">
-											Galleries
-										</label>
-
-										<label for="header-search-filter-type-lsvr_service" class="header-search__filter-label">
-											<input type="checkbox" class="header-search__filter-checkbox" id="header-search-filter-type-lsvr_service" name="search-filter[]" value="lsvr_service">
-											City Services
-										</label>
-
-										<label for="header-search-filter-type-lsvr_testimonial" class="header-search__filter-label">
-											<input type="checkbox" class="header-search__filter-checkbox" id="header-search-filter-type-lsvr_testimonial" name="search-filter[]" value="lsvr_testimonial">
-											Vox Populi
-										</label>
-
-									</div>
-									<!-- SEARCH FILTER : end -->
-
-								</div>
-								<!-- SEARCH PANEL : end -->
-
-							</form>
-							<!-- SEARCH FORM : end -->
-
-							<button class="header-search__close-button" type="button" title="Collapse search">
-								<span class="header-search__close-button-icon" aria-hidden="true"></span>
-							</button>
-
-						</div>
-					</div>
-					<!-- HEADER SEARCH : end -->
-
 					<!-- HEADER NAVBAR : begin -->
 					<div class="header__navbar">
 						<div class="header__navbar-inner">
@@ -135,17 +36,9 @@
 
 								<!-- HEADER BRANDING : begin -->
 								<div class="header-branding">
-									<div class="header-branding__inner">
-
-										<!-- HEADER LOGO : begin -->
-										<div class="header-logo">
-											<a href="index.html" class="header-logo__link">
-												<img src="resource/picture/wordbench-logo.png" class="header-logo__image" alt="Wordbench">
-											</a>
-										</div>
-										<!-- HEADER LOGO : end -->
-
-									</div>
+									<a href="index.html" class="header-logo__link">
+										<span class="header-branding">Util of Bocl</span>
+									</a>
 								</div>
 								<!-- HEADER BRANDING : end -->
 
@@ -175,11 +68,7 @@
 								<nav id="header-menu-primary" class="header-menu-primary"
 									data-label-expand-popup="Expand submenu" data-label-collapse-popup="Collapse submenu" aria-label="Primary Header Menu">
 
-									<!-- MENU LEVEL 1 : begin -->
-									<ul class="header-menu-primary__list" role="menu">
-
-										<!-- MENU ITEM : begin -->
-										<li class="header-menu-primary__item header-menu-primary__item--level-1 header-menu-primary__item--has-children header-menu-primary__item--dropdown" role="presentation">
+									<li class="header-menu-primary__item header-menu-primary__item--level-1 header-menu-primary__item--has-children header-menu-primary__item--dropdown" role="presentation">
 
 											<a href="index.html" class="header-menu-primary__item-link header-menu-primary__item-link--current header-menu-primary__item-link--level-1" role="menuitem"
 												aria-haspopup="true" aria-expanded="false">
@@ -219,320 +108,22 @@
 																</li>
 																<!-- MENU ITEM : end -->
 
-															</ul>
-															<!-- MENU LEVEL 2 : end -->
+														</ul>
+														<!-- MENU LEVEL 2 : end -->
 
-														</div>
 													</div>
 												</div>
 											</div>
-											<!-- MENU LEVEL 2 WRAPPER : end -->
+										</div>
+										<!-- MENU LEVEL 2 WRAPPER : end -->
 
-										</li>
-										<!-- MENU ITEM : end -->
-
-										<!-- MENU ITEM : begin -->
-										<li class="header-menu-primary__item header-menu-primary__item--level-1" role="presentation">
-											<a href="html/blog-archive.html" class="header-menu-primary__item-link header-menu-primary__item-link--level-1" role="menuitem">
-												<span class="header-menu-primary__item-link-label">News</span>
-											</a>
-										</li>
-										<!-- MENU ITEM : end -->
-
-										<!-- MENU ITEM : begin -->
-										<li class="header-menu-primary__item header-menu-primary__item--level-1" role="presentation">
-											<a href="html/event-archive.html" class="header-menu-primary__item-link header-menu-primary__item-link--level-1" role="menuitem">
-												<span class="header-menu-primary__item-link-label">Events</span>
-											</a>
-										</li>
-										<!-- MENU ITEM : end -->
-
-										<!-- MENU ITEM : begin -->
-										<li class="header-menu-primary__item header-menu-primary__item--level-1" role="presentation">
-											<a href="html/service-archive.html" class="header-menu-primary__item-link header-menu-primary__item-link--level-1" role="menuitem">
-												<span class="header-menu-primary__item-link-label">Services</span>
-											</a>
-										</li>
-										<!-- MENU ITEM : end -->
-
-										<!-- MENU ITEM : begin -->
-										<li class="header-menu-primary__item header-menu-primary__item--level-1" role="presentation">
-											<a href="html/listing-archive.html" class="header-menu-primary__item-link header-menu-primary__item-link--level-1" role="menuitem">
-												<span class="header-menu-primary__item-link-label">Locations</span>
-											</a>
-										</li>
-										<!-- MENU ITEM : end -->
-
-										<!-- MENU ITEM : begin -->
-										<li class="header-menu-primary__item header-menu-primary__item--level-1 header-menu-primary__item--has-children header-menu-primary__item--megamenu" role="presentation">
-
-											<a href="html/blog-archive.html" class="header-menu-primary__item-link header-menu-primary__item-link--level-1"
-											   role="menuitem" aria-haspopup="true" aria-expanded="false">
-												<span class="header-menu-primary__item-link-label">More</span>
-												<span class="header-menu-primary__item-link-icon" aria-hidden="true"></span>
-												<span class="header-menu-primary__item-link-indicator" aria-hidden="true"></span>
-											</a>
-
-											<button class="header-menu-primary__submenu-toggle header-menu-primary__submenu-toggle--level-1"
-												type="button" title="Expand submenu" aria-haspopup="true" aria-expanded="false">
-												<span class="header-menu-primary__submenu-toggle-icon" aria-hidden="true"></span>
-											</button>
-
-											<!-- MENU LEVEL 2 WRAPPER : begin -->
-											<div class="header-menu-primary__submenu-wrapper header-menu-primary__submenu-wrapper--level-2"
-												role="group" aria-expanded="false">
-												<div class="header-menu-primary__submenu-wrapper-inner header-menu-primary__submenu-wrapper-inner--level-2">
-													<div class="header-menu-primary__submenu-wrapper-inner2 header-menu-primary__submenu-wrapper-inner2--level-2">
-														<div class="header-menu-primary__submenu-wrapper-inner3 header-menu-primary__submenu-wrapper-inner3--level-2">
-
-															<!-- MENU LEVEL 2 : begin -->
-															<ul class="header-menu-primary__submenu header-menu-primary__submenu--level-2" role="menu">
-
-																<!-- MENU ITEM : begin -->
-																<li class="header-menu-primary__item header-menu-primary__item--level-2 header-menu-primary__item--has-children" role="presentation">
-
-																	<a href="html/blog-archive.html" class="header-menu-primary__item-link header-menu-primary__item-link--level-2"
-																	   role="menuitem" aria-haspopup="true" aria-expanded="false">
-																		<span class="header-menu-primary__item-link-label">What's New</span>
-																		<span class="header-menu-primary__item-link-icon" aria-hidden="true"></span>
-																	</a>
-
-																	<button class="header-menu-primary__submenu-toggle header-menu-primary__submenu-toggle--level-2"
-																		type="button" title="Expand submenu" aria-haspopup="true" aria-expanded="false">
-																		<span class="header-menu-primary__submenu-toggle-icon" aria-hidden="true"></span>
-																	</button>
-
-																	<!-- MENU LEVEL 3 WRAPPER : begin -->
-																	<div class="header-menu-primary__submenu-wrapper header-menu-primary__submenu-wrapper--level-1"
-																		role="group" aria-expanded="false">
-																		<div class="header-menu-primary__submenu-wrapper-inner header-menu-primary__submenu-wrapper-inner--level-3">
-																			<div class="header-menu-primary__submenu-wrapper-inner2 header-menu-primary__submenu-wrapper-inner2--level-3">
-																				<div class="header-menu-primary__submenu-wrapper-inner3 header-menu-primary__submenu-wrapper-inner3--level-3">
-
-																					<!-- MENU LEVEL 3 : begin -->
-																					<ul class="header-menu-primary__submenu sub-menu header-menu-primary__submenu--level-3" role="menu">
-
-																						<!-- MENU ITEM : begin -->
-																						<li class="header-menu-primary__item header-menu-primary__item--level-3" role="presentation">
-																							<a href="html/event-archive.html" class="header-menu-primary__item-link header-menu-primary__item-link--level-3"
-																							   role="menuitem">
-																								<span class="header-menu-primary__item-link-label">Upcoming Events</span>
-																							</a>
-																						</li>
-																						<!-- MENU ITEM : end -->
-
-																						<!-- MENU ITEM : begin -->
-																						<li class="header-menu-primary__item header-menu-primary__item--level-3" role="presentation">
-																							<a href="html/listing-archive.html" class="header-menu-primary__item-link header-menu-primary__item-link--level-3"
-																							   role="menuitem">
-																								<span class="header-menu-primary__item-link-label">Interesting Locations</span>
-																							</a>
-																						</li>
-																						<!-- MENU ITEM : end -->
-
-																						<!-- MENU ITEM : begin -->
-																						<li class="header-menu-primary__item header-menu-primary__item--level-3" role="presentation">
-																							<a href="html/document-archive.html" class="header-menu-primary__item-link header-menu-primary__item-link--level-3"
-																							   role="menuitem">
-																								<span class="header-menu-primary__item-link-label">Documents</span>
-																							</a>
-																						</li>
-																						<!-- MENU ITEM : end -->
-
-																						<!-- MENU ITEM : begin -->
-																						<li class="header-menu-primary__item header-menu-primary__item--level-3" role="presentation">
-																							<a href="html/faq-archive.html" class="header-menu-primary__item-link header-menu-primary__item-link--level-3"
-																							   role="menuitem">
-																								<span class="header-menu-primary__item-link-label">FAQ</span>
-																							</a>
-																						</li>
-																						<!-- MENU ITEM : end -->
-
-																					</ul>
-																					<!-- MENU LEVEL 3 : end -->
-
-																				</div>
-																			</div>
-																		</div>
-																	</div>
-																	<!-- MENU LEVEL 3 WRAPPER : end -->
-
-																</li>
-																<!-- MENU ITEM : end -->
-
-																<!-- MENU ITEM : begin -->
-																<li class="header-menu-primary__item header-menu-primary__item--level-2 header-menu-primary__item--has-children" role="presentation">
-
-																	<a href="html/service-archive.html" class="header-menu-primary__item-link header-menu-primary__item-link--level-2"
-																	   role="menuitem" aria-haspopup="true" aria-expanded="false">
-																		<span class="header-menu-primary__item-link-label">Learn More</span>
-																		<span class="header-menu-primary__item-link-icon" aria-hidden="true"></span>
-																	</a>
-
-																	<button class="header-menu-primary__submenu-toggle header-menu-primary__submenu-toggle--level-2"
-																		type="button" title="Expand submenu" aria-haspopup="true" aria-expanded="false">
-																		<span class="header-menu-primary__submenu-toggle-icon" aria-hidden="true"></span>
-																	</button>
-
-																	<!-- MENU LEVEL 3 WRAPPER : begin -->
-																	<div class="header-menu-primary__submenu-wrapper header-menu-primary__submenu-wrapper--level-1"
-																		role="group" aria-expanded="false">
-																		<div class="header-menu-primary__submenu-wrapper-inner header-menu-primary__submenu-wrapper-inner--level-3">
-																			<div class="header-menu-primary__submenu-wrapper-inner2 header-menu-primary__submenu-wrapper-inner2--level-3">
-																				<div class="header-menu-primary__submenu-wrapper-inner3 header-menu-primary__submenu-wrapper-inner3--level-3">
-
-																					<!-- MENU LEVEL 3 : begin -->
-																					<ul class="header-menu-primary__submenu sub-menu header-menu-primary__submenu--level-3" role="menu">
-
-																						<!-- MENU ITEM : begin -->
-																						<li class="header-menu-primary__item header-menu-primary__item--level-3" role="presentation">
-																							<a href="html/service-archive.html" class="header-menu-primary__item-link header-menu-primary__item-link--level-3"
-																							   role="menuitem">
-																								<span class="header-menu-primary__item-link-label">City Services</span>
-																							</a>
-																						</li>
-																						<!-- MENU ITEM : end -->
-
-																						<!-- MENU ITEM : begin -->
-																						<li class="header-menu-primary__item header-menu-primary__item--level-3" role="presentation">
-																							<a href="html/person-archive.html" class="header-menu-primary__item-link header-menu-primary__item-link--level-3"
-																							   role="menuitem">
-																								<span class="header-menu-primary__item-link-label">City Council</span>
-																							</a>
-																						</li>
-																						<!-- MENU ITEM : end -->
-
-																						<!-- MENU ITEM : begin -->
-																						<li class="header-menu-primary__item header-menu-primary__item--level-3" role="presentation">
-																							<a href="html/gallery-archive.html" class="header-menu-primary__item-link header-menu-primary__item-link--level-3"
-																							   role="menuitem">
-																								<span class="header-menu-primary__item-link-label">Galleries</span>
-																							</a>
-																						</li>
-																						<!-- MENU ITEM : end -->
-
-																						<!-- MENU ITEM : begin -->
-																						<li class="header-menu-primary__item header-menu-primary__item--level-3" role="presentation">
-																							<a href="html/testimonial-archive.html" class="header-menu-primary__item-link header-menu-primary__item-link--level-3"
-																							   role="menuitem">
-																								<span class="header-menu-primary__item-link-label">Vox Populi</span>
-																							</a>
-																						</li>
-																						<!-- MENU ITEM : end -->
-
-																					</ul>
-																					<!-- MENU LEVEL 3 : end -->
-
-																				</div>
-																			</div>
-																		</div>
-																	</div>
-																	<!-- MENU LEVEL 3 WRAPPER : end -->
-
-																</li>
-																<!-- MENU ITEM : end -->
-
-																<!-- MENU ITEM : begin -->
-																<li class="header-menu-primary__item header-menu-primary__item--level-2 header-menu-primary__item--has-children" role="presentation">
-
-																	<a href="html/contact.html" class="header-menu-primary__item-link header-menu-primary__item-link--level-2"
-																	   role="menuitem" aria-haspopup="true" aria-expanded="false">
-																		<span class="header-menu-primary__item-link-label">Pages</span>
-																		<span class="header-menu-primary__item-link-icon" aria-hidden="true"></span>
-																	</a>
-
-																	<button class="header-menu-primary__submenu-toggle header-menu-primary__submenu-toggle--level-2"
-																		type="button" title="Expand submenu" aria-haspopup="true" aria-expanded="false">
-																		<span class="header-menu-primary__submenu-toggle-icon" aria-hidden="true"></span>
-																	</button>
-
-																	<!-- MENU LEVEL 3 WRAPPER : begin -->
-																	<div class="header-menu-primary__submenu-wrapper header-menu-primary__submenu-wrapper--level-1"
-																		role="group" aria-expanded="false">
-																		<div class="header-menu-primary__submenu-wrapper-inner header-menu-primary__submenu-wrapper-inner--level-3">
-																			<div class="header-menu-primary__submenu-wrapper-inner2 header-menu-primary__submenu-wrapper-inner2--level-3">
-																				<div class="header-menu-primary__submenu-wrapper-inner3 header-menu-primary__submenu-wrapper-inner3--level-3">
-
-																					<!-- MENU LEVEL 3 : begin -->
-																					<ul class="header-menu-primary__submenu sub-menu header-menu-primary__submenu--level-3" role="menu">
-
-																						<!-- MENU ITEM : begin -->
-																						<li class="header-menu-primary__item header-menu-primary__item--level-3" role="presentation">
-																							<a href="html/contact.html" class="header-menu-primary__item-link header-menu-primary__item-link--level-3"
-																							   role="menuitem">
-																								<span class="header-menu-primary__item-link-label">Contact</span>
-																							</a>
-																						</li>
-																						<!-- MENU ITEM : end -->
-
-																						<!-- MENU ITEM : begin -->
-																						<li class="header-menu-primary__item header-menu-primary__item--level-3" role="presentation">
-																							<a href="html/typography.html" class="header-menu-primary__item-link header-menu-primary__item-link--level-3"
-																							   role="menuitem">
-																								<span class="header-menu-primary__item-link-label">Typography</span>
-																							</a>
-																						</li>
-																						<!-- MENU ITEM : end -->
-
-																						<!-- MENU ITEM : begin -->
-																						<li class="header-menu-primary__item header-menu-primary__item--level-3" role="presentation">
-																							<a href="html/sidebar-left.html" class="header-menu-primary__item-link header-menu-primary__item-link--level-3"
-																							   role="menuitem">
-																								<span class="header-menu-primary__item-link-label">Sidebar on the Left</span>
-																							</a>
-																						</li>
-																						<!-- MENU ITEM : end -->
-
-																						<!-- MENU ITEM : begin -->
-																						<li class="header-menu-primary__item header-menu-primary__item--level-3" role="presentation">
-																							<a href="html/sidebar-right.html" class="header-menu-primary__item-link header-menu-primary__item-link--level-3"
-																							   role="menuitem">
-																								<span class="header-menu-primary__item-link-label">Sidebar on the Right</span>
-																							</a>
-																						</li>
-																						<!-- MENU ITEM : end -->
-
-																					</ul>
-																					<!-- MENU LEVEL 3 : end -->
-
-																				</div>
-																			</div>
-																		</div>
-																	</div>
-																	<!-- MENU LEVEL 3 WRAPPER : end -->
-
-																</li>
-																<!-- MENU ITEM : end -->
-
-																<!-- MENU ITEM : begin -->
-																
-																<!-- MENU ITEM : end -->
-
-															</ul>
-															<!-- MENU LEVEL 2 : end -->
-
-														</div>
-													</div>
-												</div>
-											</div>
-											<!-- MENU LEVEL 2 WRAPPER : end -->
-
-										</li>
-										<!-- MENU ITEM : end -->
+									</li>
 
 									</ul>
 									<!-- MENU LEVEL 1 : end -->
 
 								</nav>
 								<!-- PRIMARY HEADER MENU : end -->
-
-								<!-- HEADER CTA : begin -->
-								<div class="header-cta">
-
-									<a href="#" class="header-cta__link lsvr-button" target="_blank">Buy Wordbench</a>
-
-								</div>
-								<!-- HEADER CTA : end -->
 
 							</div>
 							<!-- HEADER NAVBAR MENU : end -->
@@ -665,7 +256,7 @@
 	                													<!-- MENU LEVEL 2 : end -->
 
 	                												</li>
-
+																	
 	                											</ul>
 	                											<!-- MENU LEVEL 1 : end -->
 
@@ -697,6 +288,153 @@
 			<!-- FOOTER : begin -->
 			<footer id="footer" class="footer--has-widgets footer--has-menu footer--has-social-links footer--has-text footer--has-back-to-top">
 				<div class="footer__inner">
+
+					<!-- FOOTER WIDGETS : begin -->
+					<div class="footer-widgets footer-widgets--wider-first-col"><!-- Remove the "footer-widgets--wider-first-col" to make all columns equal width. -->
+						<div class="lsvr-container">
+							<div class="footer-widgets__inner">
+
+								<!-- GRID : begin -->
+								<div class="lsvr-grid">
+
+									<!-- GRID COLUMN : begin -->
+									<div class="footer-widgets__column lsvr-grid__col lsvr-grid__col--span-3 lsvr-grid__col--md-span-4 lsvr-grid__col--sm-span-6">
+										<div class="footer-widgets__column-inner">
+
+											<!-- LSVR TEXT WIDGET : begin -->
+											<div class="widget lsvr-text-widget">
+												<div class="widget__inner">
+													<h3 class="widget__title">Premium HTML Template</h3>
+													<div class="widget__content">
+														<p>Wordbench is a premium HTML template, built with <strong>accessibility</strong> and <strong>good coding standards</strong> in mind.
+															It comes packed with a lot of powerful features which makes it ideal for <strong>municipality, nonprofit</strong> or even <strong>small business</strong> websites.</p>
+													</div>
+												</div>
+											</div>
+											<!-- LSVR TEXT WIDGET : end -->
+
+										</div>
+									</div>
+									<!-- GRID COLUMN : end -->
+
+									<!-- GRID COLUMN : begin -->
+									<div class="footer-widgets__column lsvr-grid__col lsvr-grid__col--span-3 lsvr-grid__col--md-span-4 lsvr-grid__col--sm-span-6">
+										<div class="footer-widgets__column-inner">
+
+											<!-- LSVR MENU WIDGET : begin -->
+											<div class="widget lsvr-menu-widget">
+												<div class="widget__inner">
+													<h3 class="widget__title">What’s New</h3>
+													<div class="widget__content">
+														<ul class="lsvr-menu-widget__list">
+
+															<li class="lsvr-menu-widget__item">
+																<a href="blog-archive.html" class="lsvr-menu-widget__item-link">Latest News</a>
+															</li>
+
+															<li class="lsvr-menu-widget__item">
+																<a href="event-archive.html" class="lsvr-menu-widget__item-link">Upcoming Events</a>
+															</li>
+
+															<li class="lsvr-menu-widget__item">
+																<a href="listing-archive.html" class="lsvr-menu-widget__item-link">Interesting Locations</a>
+															</li>
+
+															<li class="lsvr-menu-widget__item">
+																<a href="document-archive.html" class="lsvr-menu-widget__item-link">Documents</a>
+															</li>
+
+														</ul>
+													</div>
+												</div>
+											</div>
+											<!-- LSVR MENU WIDGET : end -->
+
+										</div>
+									</div>
+									<!-- GRID COLUMN : end -->
+
+									<!-- GRID COLUMN : begin -->
+									<div class="footer-widgets__column lsvr-grid__col lsvr-grid__col--span-3 lsvr-grid__col--md-span-4 lsvr-grid__col--sm-span-6">
+										<div class="footer-widgets__column-inner">
+
+											<!-- LSVR MENU WIDGET : begin -->
+											<div class="widget lsvr-menu-widget">
+												<div class="widget__inner">
+													<h3 class="widget__title">Learn More</h3>
+													<div class="widget__content">
+														<ul class="lsvr-menu-widget__list">
+
+															<li class="lsvr-menu-widget__item">
+																<a href="service-archive.html" class="lsvr-menu-widget__item-link">City Services</a>
+															</li>
+
+															<li class="lsvr-menu-widget__item">
+																<a href="gallery-archive.html" class="lsvr-menu-widget__item-link">Galleries</a>
+															</li>
+
+															<li class="lsvr-menu-widget__item">
+																<a href="testimonial-archive.html" class="lsvr-menu-widget__item-link">Vox Populi</a>
+															</li>
+
+															<li class="lsvr-menu-widget__item">
+																<a href="faq-archive.html" class="lsvr-menu-widget__item-link">FAQ</a>
+															</li>
+
+														</ul>
+													</div>
+												</div>
+											</div>
+											<!-- LSVR MENU WIDGET : end -->
+
+										</div>
+									</div>
+									<!-- GRID COLUMN : end -->
+
+									<!-- GRID COLUMN : begin -->
+									<div class="footer-widgets__column lsvr-grid__col lsvr-grid__col--span-3 lsvr-grid__col--md-span-4 lsvr-grid__col--sm-span-6">
+										<div class="footer-widgets__column-inner">
+
+											<!-- LSVR MENU WIDGET : begin -->
+											<div class="widget lsvr-menu-widget">
+												<div class="widget__inner">
+													<h3 class="widget__title">Wordbench</h3>
+													<div class="widget__content">
+														<ul class="lsvr-menu-widget__list">
+
+															<li class="lsvr-menu-widget__item">
+																<a href="#" target="_blank" class="lsvr-menu-widget__item-link">Purchase Template</a>
+															</li>
+
+															<li class="lsvr-menu-widget__item">
+																<a href="#" target="_blank" class="lsvr-menu-widget__item-link">Documentation</a>
+															</li>
+
+															<li class="lsvr-menu-widget__item">
+																<a href="#" target="_blank" class="lsvr-menu-widget__item-link">More Themes</a>
+															</li>
+
+															<li class="lsvr-menu-widget__item">
+																<a href="../wordbench.rtl" class="lsvr-menu-widget__item-link">RTL Version</a>
+															</li>
+
+														</ul>
+													</div>
+												</div>
+											</div>
+											<!-- LSVR MENU WIDGET : end -->
+
+										</div>
+									</div>
+									<!-- GRID COLUMN : end -->
+
+								</div>
+								<!-- GRID : end -->
+
+							</div>
+						</div>
+					</div>
+					<!-- FOOTER WIDGETS : end -->
 
 					<!-- FOOTER BOTTOM : begin -->
 					<div class="footer-bottom">
@@ -743,7 +481,7 @@
 
 								<!-- FOOTER TEXT : begin -->
 								<div class="footer-text">
-									<p>Copyright &copy; 2021.Company name All rights reserved.<a target="_blank" href="https://sc.chinaz.com/moban/">&#x7F51;&#x9875;&#x6A21;&#x677F;</a></p>
+									<p>Copyright &copy; 2021.Company name All rights reserved.<a target="_blank" href="https://sc.chinaz.com/moban/"> Bocal</a></p>
 								</div>
 								<!-- FOOTER TEXT : end -->
 
