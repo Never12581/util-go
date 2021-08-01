@@ -8,5 +8,5 @@ import (
 )
 
 func main() {
-	g.Server().Run()
+	g.Server("util-go").Run()
 }

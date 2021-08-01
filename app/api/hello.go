@@ -4,7 +4,7 @@ import (
 	"github.com/gogf/gf/net/ghttp"
 )
 
-var Hello = helloApi{}
+var Hello = &helloApi{}
 
 type helloApi struct{}
 

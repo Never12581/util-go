@@ -7,8 +7,10 @@ import (
 )
 
 func init() {
-	s := g.Server()
+	s := g.Server("util-go")
 	s.Group("/", func(group *ghttp.RouterGroup) {
 		group.ALL("/hello", api.Hello)
+		group.ALL("/dbGenerator/api", api.DbGeneratorApi)
 	})
+	s.BindController("/dbGenerator", api.DbGeneratorTemplate)
 }
