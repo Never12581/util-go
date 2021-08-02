@@ -1594,6 +1594,10 @@ template {
     content: "\e91e"
 }
 
+.lsvr-icon-icloud:before {
+    content: "\e91e"
+}
+
 .lsvr-icon-instagram:before {
     content: "\e91f"
 }
